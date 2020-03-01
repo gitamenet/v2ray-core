@@ -6,7 +6,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/gorilla/websocket"
+	"github.com/gitamenet/websocket"
+	utls "github.com/refraction-networking/utls"
 	"v2ray.com/core/common"
 	"v2ray.com/core/common/net"
 	"v2ray.com/core/common/session"
@@ -45,7 +46,10 @@ func dialWebsocket(ctx context.Context, dest net.Destination, streamSettings *in
 
 	if config := tls.ConfigFromStreamSettings(streamSettings); config != nil {
 		protocol = "wss"
-		dialer.TLSClientConfig = config.GetTLSConfig(tls.WithDestination(dest))
+		l := config.GetTLSConfig(tls.WithDestination(dest))
+		dialer.TLSClientConfig = &utls.Config{
+			ServerName: l.ServerName,
+		}
 	}
 
 	host := dest.NetAddr()
