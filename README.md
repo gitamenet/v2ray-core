@@ -24,7 +24,7 @@ Project V is a set of network tools that help you to build your own computer net
 This repo relies on the following third-party projects:
 
 * In production:
-  * [gorilla/websocket](https://github.com/gorilla/websocket)
+  * [gitamenet/websocket](https://github.com/gitamenet/websocket)
   * [gRPC](https://google.golang.org/grpc)
 * For testing only:
   * [miekg/dns](https://github.com/miekg/dns)

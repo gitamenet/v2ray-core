@@ -4,7 +4,7 @@ require (
 	github.com/golang/mock v1.2.0
 	github.com/golang/protobuf v1.3.2
 	github.com/google/go-cmp v0.2.0
-	github.com/gorilla/websocket v1.4.1
+	github.com/gitamenet/websocket v1.4.1
 	github.com/miekg/dns v1.1.4
 	github.com/refraction-networking/utls v0.0.0-20190909200633-43c36d3c1f57
 	go.starlark.net v0.0.0-20190919145610-979af19b165c
