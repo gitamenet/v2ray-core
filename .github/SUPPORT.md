@@ -7,7 +7,7 @@
 您可以从以下渠道获取帮助：
 
 1. 官方网站：[v2ray.com](https://www.v2ray.com)
-1. Github：[Issues](https://github.com/v2ray/v2ray-core/issues)
+1. Github：[Issues](https://github.com/gitamenet/v2ray-core/issues)
 1. Telegram：[主群](https://t.me/projectv2ray)
 
 ## Github Issue 规则
@@ -37,7 +37,7 @@
 You may get help in the following ways:
 
 1. Office Site: [v2ray.com](https://www.v2ray.com)
-1. Github: [Issues](https://github.com/v2ray/v2ray-core/issues)
+1. Github: [Issues](https://github.com/gitamenet/v2ray-core/issues)
 1. Telegram: [Main Group](https://t.me/projectv2ray)
 
 ## Github Issue Rules

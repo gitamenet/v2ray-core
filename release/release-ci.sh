@@ -141,7 +141,7 @@ popd
 echo "SHA256: ${V_HASH256}"
 echo "Version: ${VERN}"
 
-DOWNLOAD_URL="https://github.com/v2ray/v2ray-core/releases/download/v${VERN}/v2ray-macos.zip"
+DOWNLOAD_URL="https://github.com/gitamenet/v2ray-core/releases/download/v${VERN}/v2ray-macos.zip"
 
 cd $GOPATH/src/v2ray.com/
 git clone https://github.com/v2ray/homebrew-v2ray.git
