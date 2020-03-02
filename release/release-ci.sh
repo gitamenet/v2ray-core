@@ -46,10 +46,10 @@ mkdir -p /v2/src
 export GOPATH=/v2
 
 # Download all source code
-go get -insecure -t v2ray.com/core/...
+go get -insecure -t github.com/gitamenet/v2ray-core/...
 go get -insecure -t v2ray.com/ext/...
 
-pushd $GOPATH/src/v2ray.com/core/
+pushd $GOPATH/src/github.com/gitamenet/v2ray-core/
 git checkout tags/${RELEASE_TAG}
 
 VERN=${RELEASE_TAG:1}
@@ -58,7 +58,7 @@ sed -i "s/\(version *= *\"\).*\(\"\)/\1$VERN\2/g" core.go
 sed -i "s/\(build *= *\"\).*\(\"\)/\1$BUILDN\2/g" core.go
 popd
 
-pushd $GOPATH/src/v2ray.com/core/
+pushd $GOPATH/src/github.com/gitamenet/v2ray-core/
 # Update geoip.dat
 curl -L -o release/config/geoip.dat "https://github.com/v2ray/geoip/releases/latest/download/geoip.dat"
 sleep 1
@@ -75,7 +75,7 @@ pushd $GOPATH/src
 zip -9 -r /v2/build/src_all.zip * -x '*.git*'
 popd
 
-pushd $GOPATH/src/v2ray.com/core/
+pushd $GOPATH/src/github.com/gitamenet/v2ray-core/
 bazel build --action_env=GOPATH=$GOPATH --action_env=PATH=$PATH --action_env=GPG_PASS=${SIGN_KEY_PASS} //release:all
 popd
 
@@ -105,7 +105,7 @@ function upload() {
   uploadfile $DGST
 }
 
-ART_ROOT=$GOPATH/src/v2ray.com/core/bazel-bin/release
+ART_ROOT=$GOPATH/src/github.com/gitamenet/v2ray-core/bazel-bin/release
 
 upload ${ART_ROOT}/v2ray-macos.zip
 upload ${ART_ROOT}/v2ray-windows-64.zip
@@ -192,7 +192,7 @@ cp ${ART_ROOT}/v2ray-openbsd-64.zip .
 cp ${ART_ROOT}/v2ray-openbsd-32.zip .
 cp ${ART_ROOT}/v2ray-dragonfly-64.zip .
 cp /v2/build/src_all.zip .
-cp "$GOPATH/src/v2ray.com/core/release/install-release.sh" ./install.sh
+cp "$GOPATH/src/github.com/gitamenet/v2ray-core/release/install-release.sh" ./install.sh
 
 sed -i "s/^NEW_VER=\"\"$/NEW_VER=\"${RELEASE_TAG}\"/" install.sh
 sed -i 's/^DIST_SRC=".*"$/DIST_SRC="jsdelivr"/' install.sh

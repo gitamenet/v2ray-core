@@ -4,8 +4,8 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	math "math"
-	serial "v2ray.com/core/common/serial"
-	transport "v2ray.com/core/transport"
+	serial "github.com/gitamenet/v2ray-core/common/serial"
+	transport "github.com/gitamenet/v2ray-core/transport"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -242,7 +242,7 @@ func init() {
 	proto.RegisterType((*OutboundHandlerConfig)(nil), "v2ray.core.OutboundHandlerConfig")
 }
 
-func init() { proto.RegisterFile("v2ray.com/core/config.proto", fileDescriptor_13704400b1045c6b) }
+func init() { proto.RegisterFile("github.com/gitamenet/v2ray-core/config.proto", fileDescriptor_13704400b1045c6b) }
 
 var fileDescriptor_13704400b1045c6b = []byte{
 	// 409 bytes of a gzipped FileDescriptorProto

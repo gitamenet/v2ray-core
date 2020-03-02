@@ -3,7 +3,7 @@ package internet
 import (
 	"net"
 
-	"v2ray.com/core/features/stats"
+	"github.com/gitamenet/v2ray-core/features/stats"
 )
 
 type Connection interface {

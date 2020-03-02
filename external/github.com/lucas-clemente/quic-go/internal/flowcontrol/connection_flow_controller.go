@@ -3,10 +3,10 @@ package flowcontrol
 import (
 	"fmt"
 
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/congestion"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/protocol"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/qerr"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/utils"
+	"github.com/gitamenet/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/congestion"
+	"github.com/gitamenet/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/gitamenet/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/qerr"
+	"github.com/gitamenet/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/utils"
 )
 
 type connectionFlowController struct {

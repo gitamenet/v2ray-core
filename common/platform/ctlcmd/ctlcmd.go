@@ -5,8 +5,8 @@ import (
 	"os"
 	"os/exec"
 
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/platform"
+	"github.com/gitamenet/v2ray-core/common/buf"
+	"github.com/gitamenet/v2ray-core/common/platform"
 )
 
 //go:generate errorgen

@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/protocol"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/utils"
-	"v2ray.com/core/external/github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/gitamenet/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/protocol"
+	"github.com/gitamenet/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/utils"
+	"github.com/gitamenet/v2ray-core/external/github.com/lucas-clemente/quic-go/internal/wire"
 )
 
 type packetHandlerEntry struct {

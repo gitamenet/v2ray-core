@@ -239,7 +239,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("v2ray.com/core/app/reverse/config.proto", fileDescriptor_829a0eeb60380cbc)
+	proto.RegisterFile("github.com/gitamenet/v2ray-core/app/reverse/config.proto", fileDescriptor_829a0eeb60380cbc)
 }
 
 var fileDescriptor_829a0eeb60380cbc = []byte{

@@ -10,12 +10,12 @@ import (
 	"time"
 
 	"github.com/gitamenet/websocket"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	http_proto "v2ray.com/core/common/protocol/http"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/transport/internet"
-	v2tls "v2ray.com/core/transport/internet/tls"
+	"github.com/gitamenet/v2ray-core/common"
+	"github.com/gitamenet/v2ray-core/common/net"
+	http_proto "github.com/gitamenet/v2ray-core/common/protocol/http"
+	"github.com/gitamenet/v2ray-core/common/session"
+	"github.com/gitamenet/v2ray-core/transport/internet"
+	v2tls "github.com/gitamenet/v2ray-core/transport/internet/tls"
 )
 
 type requestHandler struct {

@@ -4,8 +4,8 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	math "math"
-	net "v2ray.com/core/common/net"
-	protocol "v2ray.com/core/common/protocol"
+	net "github.com/gitamenet/v2ray-core/common/net"
+	protocol "github.com/gitamenet/v2ray-core/common/protocol"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -254,7 +254,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("v2ray.com/core/proxy/shadowsocks/config.proto", fileDescriptor_8d089a30c2106007)
+	proto.RegisterFile("github.com/gitamenet/v2ray-core/proxy/shadowsocks/config.proto", fileDescriptor_8d089a30c2106007)
 }
 
 var fileDescriptor_8d089a30c2106007 = []byte{

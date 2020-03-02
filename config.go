@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
+	"github.com/gitamenet/v2ray-core/common"
+	"github.com/gitamenet/v2ray-core/common/buf"
 )
 
 // ConfigFormat is a configurable format of V2Ray config file.

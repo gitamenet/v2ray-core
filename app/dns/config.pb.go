@@ -4,8 +4,8 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	math "math"
-	router "v2ray.com/core/app/router"
-	net "v2ray.com/core/common/net"
+	router "github.com/gitamenet/v2ray-core/app/router"
+	net "github.com/gitamenet/v2ray-core/common/net"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -315,7 +315,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("v2ray.com/core/app/dns/config.proto", fileDescriptor_ed5695198e3def8f)
+	proto.RegisterFile("github.com/gitamenet/v2ray-core/app/dns/config.proto", fileDescriptor_ed5695198e3def8f)
 }
 
 var fileDescriptor_ed5695198e3def8f = []byte{

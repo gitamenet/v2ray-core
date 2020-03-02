@@ -12,17 +12,17 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
-	dns_feature "v2ray.com/core/features/dns"
+	dns_feature "github.com/gitamenet/v2ray-core/features/dns"
 
 	"golang.org/x/net/dns/dnsmessage"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/dice"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol/dns"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/common/signal/pubsub"
-	"v2ray.com/core/common/task"
-	"v2ray.com/core/features/routing"
+	"github.com/gitamenet/v2ray-core/common"
+	"github.com/gitamenet/v2ray-core/common/dice"
+	"github.com/gitamenet/v2ray-core/common/net"
+	"github.com/gitamenet/v2ray-core/common/protocol/dns"
+	"github.com/gitamenet/v2ray-core/common/session"
+	"github.com/gitamenet/v2ray-core/common/signal/pubsub"
+	"github.com/gitamenet/v2ray-core/common/task"
+	"github.com/gitamenet/v2ray-core/features/routing"
 )
 
 // DoHNameServer implimented DNS over HTTPS (RFC8484) Wire Format,

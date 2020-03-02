@@ -8,11 +8,11 @@ import (
 
 	"github.com/gitamenet/websocket"
 	utls "github.com/refraction-networking/utls"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/transport/internet"
-	"v2ray.com/core/transport/internet/tls"
+	"github.com/gitamenet/v2ray-core/common"
+	"github.com/gitamenet/v2ray-core/common/net"
+	"github.com/gitamenet/v2ray-core/common/session"
+	"github.com/gitamenet/v2ray-core/transport/internet"
+	"github.com/gitamenet/v2ray-core/transport/internet/tls"
 )
 
 // Dial dials a WebSocket connection to the given destination.

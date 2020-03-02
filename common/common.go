@@ -2,7 +2,7 @@
 // See each sub-package for detail.
 package common
 
-import "v2ray.com/core/common/errors"
+import "github.com/gitamenet/v2ray-core/common/errors"
 
 //go:generate errorgen
 

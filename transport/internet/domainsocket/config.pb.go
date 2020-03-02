@@ -72,7 +72,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("v2ray.com/core/transport/internet/domainsocket/config.proto", fileDescriptor_76473d52e3e3815d)
+	proto.RegisterFile("github.com/gitamenet/v2ray-core/transport/internet/domainsocket/config.proto", fileDescriptor_76473d52e3e3815d)
 }
 
 var fileDescriptor_76473d52e3e3815d = []byte{

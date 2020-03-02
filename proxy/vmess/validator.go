@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/serial"
-	"v2ray.com/core/common/task"
+	"github.com/gitamenet/v2ray-core/common"
+	"github.com/gitamenet/v2ray-core/common/protocol"
+	"github.com/gitamenet/v2ray-core/common/serial"
+	"github.com/gitamenet/v2ray-core/common/task"
 )
 
 const (

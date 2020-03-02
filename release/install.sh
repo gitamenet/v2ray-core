@@ -21,6 +21,6 @@ if [ -z "$GOPATH" ]; then
   export GOPATH=/v2ray
 fi
 
-go get -insecure -u v2ray.com/core/...
-go build -o $GOPATH/bin/v2ray v2ray.com/core/main
-go build -o $GOPATH/bin/v2ctl v2ray.com/core/infra/control/main
+go get -insecure -u github.com/gitamenet/v2ray-core/...
+go build -o $GOPATH/bin/v2ray github.com/gitamenet/v2ray-core/main
+go build -o $GOPATH/bin/v2ctl github.com/gitamenet/v2ray-core/infra/control/main

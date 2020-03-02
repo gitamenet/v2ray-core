@@ -7,7 +7,7 @@ import (
 	"io"
 	"sync"
 
-	"v2ray.com/core/common"
+	"github.com/gitamenet/v2ray-core/common"
 )
 
 const (

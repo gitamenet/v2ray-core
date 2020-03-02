@@ -4,7 +4,7 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	math "math"
-	serial "v2ray.com/core/common/serial"
+	serial "github.com/gitamenet/v2ray-core/common/serial"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -126,7 +126,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("v2ray.com/core/proxy/blackhole/config.proto", fileDescriptor_8c8b37c8ae1bdfea)
+	proto.RegisterFile("github.com/gitamenet/v2ray-core/proxy/blackhole/config.proto", fileDescriptor_8c8b37c8ae1bdfea)
 }
 
 var fileDescriptor_8c8b37c8ae1bdfea = []byte{

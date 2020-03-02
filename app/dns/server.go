@@ -12,17 +12,17 @@ import (
 	"sync"
 	"time"
 
-	"v2ray.com/core"
-	"v2ray.com/core/app/router"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/errors"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/common/strmatcher"
-	"v2ray.com/core/common/uuid"
-	"v2ray.com/core/features"
-	"v2ray.com/core/features/dns"
-	"v2ray.com/core/features/routing"
+	"github.com/gitamenet/v2ray-core"
+	"github.com/gitamenet/v2ray-core/app/router"
+	"github.com/gitamenet/v2ray-core/common"
+	"github.com/gitamenet/v2ray-core/common/errors"
+	"github.com/gitamenet/v2ray-core/common/net"
+	"github.com/gitamenet/v2ray-core/common/session"
+	"github.com/gitamenet/v2ray-core/common/strmatcher"
+	"github.com/gitamenet/v2ray-core/common/uuid"
+	"github.com/gitamenet/v2ray-core/features"
+	"github.com/gitamenet/v2ray-core/features/dns"
+	"github.com/gitamenet/v2ray-core/features/routing"
 )
 
 // Server is a DNS rely server.

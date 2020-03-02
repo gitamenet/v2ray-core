@@ -119,7 +119,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("v2ray.com/core/app/log/command/config.proto", fileDescriptor_46d95b63a682e4a6)
+	proto.RegisterFile("github.com/gitamenet/v2ray-core/app/log/command/config.proto", fileDescriptor_46d95b63a682e4a6)
 }
 
 var fileDescriptor_46d95b63a682e4a6 = []byte{
@@ -209,5 +209,5 @@ var _LoggerService_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "v2ray.com/core/app/log/command/config.proto",
+	Metadata: "github.com/gitamenet/v2ray-core/app/log/command/config.proto",
 }

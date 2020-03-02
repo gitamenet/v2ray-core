@@ -3,18 +3,18 @@ package outbound
 import (
 	"context"
 
-	"v2ray.com/core"
-	"v2ray.com/core/app/proxyman"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/mux"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/features/outbound"
-	"v2ray.com/core/proxy"
-	"v2ray.com/core/transport"
-	"v2ray.com/core/transport/internet"
-	"v2ray.com/core/transport/internet/tls"
-	"v2ray.com/core/transport/pipe"
+	"github.com/gitamenet/v2ray-core"
+	"github.com/gitamenet/v2ray-core/app/proxyman"
+	"github.com/gitamenet/v2ray-core/common"
+	"github.com/gitamenet/v2ray-core/common/mux"
+	"github.com/gitamenet/v2ray-core/common/net"
+	"github.com/gitamenet/v2ray-core/common/session"
+	"github.com/gitamenet/v2ray-core/features/outbound"
+	"github.com/gitamenet/v2ray-core/proxy"
+	"github.com/gitamenet/v2ray-core/transport"
+	"github.com/gitamenet/v2ray-core/transport/internet"
+	"github.com/gitamenet/v2ray-core/transport/internet/tls"
+	"github.com/gitamenet/v2ray-core/transport/pipe"
 )
 
 // Handler is an implements of outbound.Handler.

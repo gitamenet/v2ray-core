@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/gitamenet/websocket"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/errors"
-	"v2ray.com/core/common/serial"
+	"github.com/gitamenet/v2ray-core/common/buf"
+	"github.com/gitamenet/v2ray-core/common/errors"
+	"github.com/gitamenet/v2ray-core/common/serial"
 )
 
 var (

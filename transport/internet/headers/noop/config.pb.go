@@ -85,7 +85,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("v2ray.com/core/transport/internet/headers/noop/config.proto", fileDescriptor_b4a070eec05ae9a3)
+	proto.RegisterFile("github.com/gitamenet/v2ray-core/transport/internet/headers/noop/config.proto", fileDescriptor_b4a070eec05ae9a3)
 }
 
 var fileDescriptor_b4a070eec05ae9a3 = []byte{

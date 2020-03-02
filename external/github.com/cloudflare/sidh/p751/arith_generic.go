@@ -3,8 +3,8 @@
 package p751
 
 import (
-	. "v2ray.com/core/external/github.com/cloudflare/sidh/internal/arith"
-	. "v2ray.com/core/external/github.com/cloudflare/sidh/internal/isogeny"
+	. "github.com/gitamenet/v2ray-core/external/github.com/cloudflare/sidh/internal/arith"
+	. "github.com/gitamenet/v2ray-core/external/github.com/cloudflare/sidh/internal/isogeny"
 )
 
 // Compute z = x + y (mod p).

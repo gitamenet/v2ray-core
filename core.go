@@ -9,13 +9,13 @@
 // connections.
 package core
 
-//go:generate go install "v2ray.com/core/common/errors/errorgen"
+//go:generate go install "github.com/gitamenet/v2ray-core/common/errors/errorgen"
 //go:generate errorgen
 
 import (
 	"runtime"
 
-	"v2ray.com/core/common/serial"
+	"github.com/gitamenet/v2ray-core/common/serial"
 )
 
 var (

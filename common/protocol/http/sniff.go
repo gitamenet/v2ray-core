@@ -5,8 +5,8 @@ import (
 	"errors"
 	"strings"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
+	"github.com/gitamenet/v2ray-core/common"
+	"github.com/gitamenet/v2ray-core/common/net"
 )
 
 type version byte

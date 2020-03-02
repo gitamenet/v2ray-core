@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"time"
 
-	"v2ray.com/core/common"
+	"github.com/gitamenet/v2ray-core/common"
 )
 
 //go:generate errorgen

@@ -10,14 +10,14 @@ import (
 
 	"golang.org/x/crypto/chacha20poly1305"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/bitmask"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/crypto"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/task"
-	"v2ray.com/core/proxy/vmess"
+	"github.com/gitamenet/v2ray-core/common"
+	"github.com/gitamenet/v2ray-core/common/bitmask"
+	"github.com/gitamenet/v2ray-core/common/buf"
+	"github.com/gitamenet/v2ray-core/common/crypto"
+	"github.com/gitamenet/v2ray-core/common/net"
+	"github.com/gitamenet/v2ray-core/common/protocol"
+	"github.com/gitamenet/v2ray-core/common/task"
+	"github.com/gitamenet/v2ray-core/proxy/vmess"
 )
 
 type sessionId struct {
